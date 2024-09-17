@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Router from './Components/Router/Router'
-import { Navbar } from './Components/Navbar'
+import { NavigationBar } from './Components/NavigationBar'
 import { Footer } from './Components/Footer'
 
 
@@ -9,8 +9,10 @@ function App() {
 
   return (
     <>
-      <Navbar />
+
+      <NavigationBar />
       <Router />
+
       <Footer />
     </>
   )
