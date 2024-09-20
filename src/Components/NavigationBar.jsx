@@ -15,11 +15,17 @@ export const NavigationBar = () => {
         navigate('/');
         console.log("Navigated to '/'")
     }
+    // Handle navigating to pricing page
+    const handlePricingClick = () => {
+        navigate('/pricing')
+        console.log("Navigated to pricing")
+    }
 
     return (
         <>
 
             <Navbar className='nav-bar'>
+                {/* brand and logo button */}
                 <Container>
                     <div onClick={handleBrandClick} style={{ cursor: 'pointer' }}>
                         <Navbar.Brand className='brand'>
@@ -29,6 +35,13 @@ export const NavigationBar = () => {
                                 className='brandImage' />
                             <h2 className='brand-text'>In & Out Cuts</h2>
                         </Navbar.Brand>
+                    </div>
+                </Container>
+                {/* Buttons */}
+                <Container>
+                    {/* Pricing */}
+                    <div onClick={handlePricingClick} style={{ cursor: 'pointer' }}>
+                        <h2 className='brand-text'>Pricing</h2>
                     </div>
                 </Container>
             </Navbar>

@@ -16,6 +16,7 @@ body {
   height: 7vh;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0.5rem;
   background-color: white;
   border-bottom: 1px solid black;
@@ -23,6 +24,7 @@ body {
 .brand {
   display: flex;
   align-items: center;
+  width: 30vw;
 }
 .brandImage {
   height: 6vh;
@@ -38,6 +40,7 @@ body {
 .main-page {
   height: 100vh;
   width: auto;
+  padding: 1rem;
   background-image: url("./assets/background.jpeg");
   background-size: cover;
   background-position: center;
@@ -64,7 +67,7 @@ body {
   font-family: "quicksand";
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .brand-text {
     display: none;
   }
