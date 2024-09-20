@@ -1,6 +1,6 @@
-# In-Out
+# In & Out Cuts landing page
 
-This is a landing page for a local business in the city I live in. 
+This is a landing page for a local hair salon in the city I live in. Built for them for free. 
 
 ### Tech
 
