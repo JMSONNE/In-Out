@@ -1,5 +1,14 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-bar {
@@ -7,18 +16,59 @@
   height: 7vh;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0.5rem;
+  background-color: white;
   border-bottom: 1px solid black;
 }
 .brand {
   display: flex;
   align-items: center;
-  font-family: "quicksand";
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: darkgray;
+  width: 30vw;
 }
 .brandImage {
-  height: 5vh;
-  width: 6vw;
+  height: 6vh;
+  width: auto;
+}
+.brand-text {
+  font-size: 1.5rem;
+  font-family: "quicksand";
+  text-decoration: none;
+  font-weight: 375;
+  color: rgb(138, 138, 138);
+}
+.main-page {
+  height: 100vh;
+  width: auto;
+  padding: 1rem;
+  background-image: url("./assets/background.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.main-page-text {
+  font-family: "quicksand";
+}
+.footer {
+  height: 10vh;
+  width: 100%;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  padding: 1rem;
+  background-color: rgb(235, 235, 235);
+}
+.footer-text {
+  display: flex;
+  align-items: flex-end;
+  font-family: "quicksand";
+}
+
+@media (max-width: 425px) {
+  .brand-text {
+    display: none;
+  }
 }
