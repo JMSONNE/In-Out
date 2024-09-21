@@ -3,6 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+  width: 100%;
+}
 html,
 body {
   height: 100%;
@@ -10,7 +19,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .nav-bar {
   width: 100%;
   height: 7vh;
@@ -37,6 +45,22 @@ body {
   font-weight: 375;
   color: rgb(138, 138, 138);
 }
+@media (max-width: 425px) {
+  .brand-text {
+    display: none;
+  }
+  .avatar {
+    display: none;
+  }
+}
+@media (max-width: 545px) {
+  .avatar {
+    display: none;
+  }
+  .stylist-pricing {
+    font-size: small !important;
+  }
+}
 .main-page {
   height: 100vh;
   width: auto;
@@ -60,15 +84,63 @@ body {
   align-content: flex-end;
   padding: 1rem;
   background-color: rgb(235, 235, 235);
+  position: relative;
+  left: 0;
+  bottom: 0;
 }
 .footer-text {
   display: flex;
   align-items: flex-end;
   font-family: "quicksand";
 }
-
-@media (max-width: 425px) {
-  .brand-text {
-    display: none;
-  }
+.pricing-page {
+  height: 100%;
+  width: auto;
+  padding: 1rem;
+  background-image: url("./assets/background.jpeg");
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+}
+.stylist-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.stylist-info {
+  justify-content: center;
+  width: 60%;
+  background-color: white;
+  height: 30%;
+  padding: 1rem;
+  box-shadow: 3px 1px 12px 0px rgb(46, 46, 46);
+  margin-top: 2rem;
+}
+.avatar {
+  border-radius: 100%;
+  width: 12rem;
+  height: 12rem;
+}
+.flex-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+.stylist-pricing {
+  font-family: "quicksand";
+  font-size: x-large;
+  width: 50%;
+  height: auto;
+  transform: translateX(10%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 1rem;
+}
+.stylist-name {
+  font-family: "quicksand";
+  text-align: center;
 }
