@@ -6,7 +6,7 @@ import katiepic from '../assets/katiepic.jpg'
 
 export const Pricing = () => {
     return (
-        <main className='pricing-page'>
+        <section className='pricing-page'>
             <div className="stylist-section">
 
                 {/* Tessa */}
@@ -66,6 +66,6 @@ export const Pricing = () => {
                     </div>
                 </section>
             </div>
-        </main>
+        </section>
     )
 }
