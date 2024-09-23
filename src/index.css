@@ -46,6 +46,8 @@ body {
   font-weight: 375;
   color: rgb(138, 138, 138);
 }
+/* End of navbar */
+
 /* Layout and styling for the home page */
 .main-page {
   height: 100vh;
@@ -76,6 +78,8 @@ body {
   background-color: #353333;
   clip-path: polygon(130% 45%, 15% 85%, -30% 20%);
 }
+/* End of home page */
+
 /* Footer section */
 .footer {
   height: 10vh;
@@ -95,6 +99,8 @@ body {
   align-items: flex-end;
   font-family: "quicksand";
 }
+/* End of Footer */
+
 /* Pricing page */
 .pricing-page {
   height: 100%;
@@ -149,6 +155,8 @@ body {
   font-family: "quicksand";
   text-align: center;
 }
+/* End of pricing page */
+
 /* Media queries for responsiveness */
 @media (max-width: 425px) {
   .brand-text {
