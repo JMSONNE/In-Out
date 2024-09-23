@@ -97,12 +97,12 @@ export const NavigationBar = () => {
                                 <MenuIcon />
                             </IconButton>
                             <Menu
-                                id="basic-menu"
+                                id="menu"
                                 anchorEl={anchorEl}
                                 open={open}
                                 onClose={handleClose}
                                 MenuListProps={{
-                                    'aria-labelledby': 'basic-button',
+                                    'aria-labelledby': 'open drawer',
                                 }}
                             >
                                 <MenuItem onClick={() => { handlePricingClick(); handleClose(); }}>Pricing</MenuItem>

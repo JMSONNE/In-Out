@@ -5,7 +5,9 @@ const Home = () => {
     return (
         <>
             <section className='main-page'>
-                <h1 className='main-page-text'>Home</h1>
+                <div className="about-us-banner">
+                    <h1 className="about-us-banner-text">About us</h1>
+                </div>
             </section>
         </>
     )
