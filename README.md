@@ -10,4 +10,4 @@ This is a landing page for a local hair salon in the city I live in.
 4. MUI
 5. React router
 
-### This site will be hosted on Vercel once complete
+### This site will be hosted using Vercel once complete
