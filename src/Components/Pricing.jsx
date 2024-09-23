@@ -8,6 +8,7 @@ export const Pricing = () => {
     return (
         <main className='pricing-page'>
             <div className="stylist-section">
+
                 {/* Tessa */}
                 <section className="stylist-info">
                     <h2 className="stylist-name">Tessa</h2>
