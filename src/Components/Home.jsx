@@ -13,7 +13,7 @@ const Home = () => {
                 {/* About us content */}
                 <div className='about-us-content'>
                     <img src="src\assets\image.png"
-                        alt=""
+                        alt="In & Out Cuts"
                         className="homepage-image"
                     />
                     <p className="about-us-text">
