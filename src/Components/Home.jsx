@@ -16,7 +16,9 @@ const Home = () => {
                         alt=""
                         className="homepage-image"
                     />
-                    <p className="about-us-text">asdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
+                    <p className="about-us-text">
+                        Walk-ins welcome, come see us for all of your hair care needs. Just ask for Tammy, Tessa, katie or Andrea.
+                    </p>
                 </div>
 
             </section>
