@@ -180,7 +180,7 @@ body {
 }
 .stylist-pricing {
   font-family: "quicksand";
-  font-size: larger;
+  font-size: xx-large;
   width: 50%;
   height: auto;
   transform: translateX(10%);
@@ -226,6 +226,9 @@ body {
     height: auto;
     width: 15rem;
     border-radius: 30%;
+  }
+  .stylist-pricing {
+    font-size: large;
   }
 }
 @media (max-width: 545px) {
