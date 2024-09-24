@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../assets/logo.jpg';
 import { useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -71,7 +70,7 @@ export const NavigationBar = () => {
                 <div onClick={handleBrandClick} style={{ cursor: 'pointer' }}>
                     <Navbar.Brand className='brand'>
                         <img
-                            src='/src/assets/logo.jpg'
+                            src='src\public\logo.jpg'
                             alt="logo"
                             className='brandImage'
                         />

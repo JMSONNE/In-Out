@@ -1,8 +1,7 @@
 import React from 'react'
-import logo from '../assets/logo.jpg'
-import tessapic from '../assets/tessapic.jpg'
-import tammypic from '../assets/tammypic.jpg'
-import katiepic from '../assets/katiepic.jpg'
+import tessapic from '../public/tessapic.jpg'
+import tammypic from '../public/tammypic.jpg'
+import katiepic from '../public/katiepic.jpg'
 
 export const Pricing = () => {
     return (

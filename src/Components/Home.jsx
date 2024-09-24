@@ -12,7 +12,7 @@ const Home = () => {
 
                 {/* About us content */}
                 <div className='about-us-content'>
-                    <img src="src\assets\store-front.png"
+                    <img src="src\public\store-front.png"
                         alt="In & Out Cuts"
                         className="homepage-image"
                     />
