@@ -56,9 +56,6 @@ body {
   background-image: url("./assets/background.jpeg");
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  align-content: center;
   padding-top: 1rem;
 }
 .main-page-text {
@@ -74,10 +71,41 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20%;
+  height: 30%;
   width: 100%;
   background-color: #353333;
   clip-path: polygon(130% 45%, 15% 85%, -30% 20%);
+  margin-bottom: 1rem;
+}
+.about-us-content {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.about-us-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+}
+.about-us-text {
+  height: 15vh;
+  font-family: "quicksand";
+  background-color: #353333;
+  color: white;
+  border-radius: 5px;
+  padding: 0.2rem;
+  box-sizing: content-box;
+  overflow-wrap: break-word;
+  width: 30vw;
+  text-align: center;
+}
+.homepage-image {
+  height: auto;
+  width: 22rem;
+  border-radius: 30%;
 }
 /* End of home page */
 
@@ -86,19 +114,26 @@ body {
   height: 10vh;
   width: 100%;
   border-top: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-content: flex-end;
   padding: 1rem;
   background-color: rgb(235, 235, 235);
   position: relative;
   left: 0;
   bottom: 0;
 }
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .footer-text {
   display: flex;
   align-items: flex-end;
   font-family: "quicksand";
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
 }
 /* End of Footer */
 
@@ -167,6 +202,30 @@ body {
   }
   .avatar {
     display: none;
+  }
+  .about-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+  }
+  .about-us-text {
+    height: 10vh;
+    font-family: "quicksand";
+    background-color: #353333;
+    color: white;
+    border-radius: 5px;
+    padding: 0.3rem;
+    box-sizing: content-box;
+    width: 60vw;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .homepage-image {
+    height: auto;
+    width: 15rem;
+    border-radius: 30%;
   }
 }
 @media (max-width: 545px) {
