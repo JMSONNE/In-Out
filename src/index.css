@@ -86,19 +86,26 @@ body {
   height: 10vh;
   width: 100%;
   border-top: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-content: flex-end;
   padding: 1rem;
   background-color: rgb(235, 235, 235);
   position: relative;
   left: 0;
   bottom: 0;
 }
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .footer-text {
   display: flex;
   align-items: flex-end;
   font-family: "quicksand";
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
 }
 /* End of Footer */
 
