@@ -70,7 +70,7 @@ export const NavigationBar = () => {
                 <div onClick={handleBrandClick} style={{ cursor: 'pointer' }}>
                     <Navbar.Brand className='brand'>
                         <img
-                            src='/public/logo.jpg'
+                            src='/logo.jpg'
                             alt="logo"
                             className='brandImage'
                         />
