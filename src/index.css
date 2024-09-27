@@ -53,7 +53,7 @@ body {
 .main-page {
   height: 100vh;
   width: auto;
-  background-image: url("./assets/background.jpeg");
+  background-image: url("../public/background.jpeg");
   background-size: cover;
   background-position: center;
   padding-top: 1rem;
