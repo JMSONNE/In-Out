@@ -142,7 +142,7 @@ body {
   height: 200vh;
   width: auto;
   padding: 1rem;
-  background-image: url("./assets/background.jpeg");
+  background-image: url("../public/background.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: repeat-y;
