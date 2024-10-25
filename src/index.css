@@ -199,9 +199,6 @@ body {
 
 /* Media queries for responsiveness */
 @media (min-width: 430px) {
-  .avatar {
-    display: none;
-  }
   .about-us-content {
     display: flex;
     flex-direction: column;
