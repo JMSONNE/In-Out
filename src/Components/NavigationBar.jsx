@@ -50,7 +50,7 @@ export const NavigationBar = () => {
     const windowDimensions = useWindowDimensions();
 
     const dropdownMenu = () => {
-        return windowDimensions.width <= 425;
+        return windowDimensions.width <= 430;
     };
 
     // Handles drop down menu logic
