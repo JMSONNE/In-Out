@@ -68,16 +68,17 @@ body {
   color: white;
   font-size: xxx-large;
 }
-.about-us-banner {
+.banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30%;
+  height: 10vh;
   width: 100%;
   background-color: #353333;
-  clip-path: polygon(130% 45%, 15% 85%, -30% 20%);
-  margin-bottom: 1rem;
+  /* clip-path: polygon(130% 45%, 15% 85%, -30% 20%); */
+  margin-bottom: 3rem;
 }
+
 .about-us-content {
   display: flex;
   justify-content: space-evenly;
@@ -200,7 +201,7 @@ body {
 /* End of pricing page */
 
 /* Media queries for responsiveness */
-@media (max-width: 430px) {
+@media (max-width: 450px) {
   .brand-text {
     display: none;
   }
@@ -212,7 +213,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 20%;
+    /* height: 20%; */
   }
   .about-us-text {
     height: 20vh;
@@ -233,6 +234,9 @@ body {
   }
   .stylist-pricing {
     font-size: large;
+  }
+  .nav-bar {
+    padding-right: 0;
   }
 }
 @media (max-width: 600px) {
