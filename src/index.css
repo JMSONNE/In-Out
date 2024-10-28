@@ -28,6 +28,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
+  padding-right: 2rem;
   background-color: white;
   border-bottom: 1px solid black;
 }
@@ -67,16 +68,17 @@ body {
   color: white;
   font-size: xxx-large;
 }
-.about-us-banner {
+.banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30%;
+  height: 10vh;
   width: 100%;
   background-color: #353333;
-  clip-path: polygon(130% 45%, 15% 85%, -30% 20%);
-  margin-bottom: 1rem;
+  /* clip-path: polygon(130% 45%, 15% 85%, -30% 20%); */
+  margin-bottom: 3rem;
 }
+
 .about-us-content {
   display: flex;
   justify-content: space-evenly;
@@ -96,7 +98,7 @@ body {
   background-color: #353333;
   color: white;
   border-radius: 5px;
-  padding: 0.2rem;
+  padding: 1.2rem;
   box-sizing: content-box;
   overflow-wrap: break-word;
   width: 30vw;
@@ -158,53 +160,60 @@ body {
 }
 .stylist-info {
   justify-content: center;
-  width: 60%;
+  /* width: 60%; */
   background-color: white;
-  height: 30%;
+  /* height: 40%; */
   padding: 1rem;
   box-shadow: 3px 1px 12px 0px rgb(46, 46, 46);
   margin-top: 2rem;
 }
 .avatar {
-  border-radius: 18%;
-  width: 20%;
-  height: auto;
+  border-radius: 30%;
+  width: 12rem;
+  height: 12rem;
   margin-right: 10%;
+  transform: translateY(-10%);
 }
 .flex-wrapper {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
-  height: 70%;
+  /* width: 100%; */
+  /* height: 100%; */
   padding: 0.5rem;
   align-items: center;
 }
 .stylist-pricing {
-  font-family: quicksand;
-  font-size: 100%;
+  font-family: "quicksand";
+  font-size: xx-large;
   width: 50%;
   height: auto;
-  transform: translate(10%);
+  transform: translateX(10%);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-right: 1rem;
-  height: 60%;
 }
 .stylist-name {
   font-family: "quicksand";
   text-align: center;
+  margin: 1rem;
 }
 /* End of pricing page */
 
 /* Media queries for responsiveness */
-@media (min-width: 430px) {
+@media (max-width: 450px) {
+  .brand-text {
+    display: none;
+  }
+  .avatar {
+    display: none;
+  }
   .about-us-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 20%;
+    /* height: 20%; */
   }
   .about-us-text {
     height: 20vh;
@@ -226,22 +235,20 @@ body {
   .stylist-pricing {
     font-size: large;
   }
+  .nav-bar {
+    padding-right: 0;
+  }
 }
-@media (min-width: 0px) and (max-width: 750px) {
+@media (max-width: 600px) {
   .avatar {
     display: none;
   }
   .stylist-pricing {
-    font-size: 0.65rem !important;
+    font-size: small !important;
   }
   .homepage-image {
     height: auto;
     width: 12rem;
     border-radius: 30%;
-  }
-}
-@media (max-width: 430px) {
-  .brand-text {
-    display: none;
   }
 }
