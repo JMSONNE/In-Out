@@ -108,12 +108,11 @@ body {
 .award-list {
   font-family: quicksand;
   font-size: 1.5rem;
-  transform: translateX(30%);
 }
 .award-content {
   display: flex;
   justify-content: flex-start;
-  height: 15vh;
+  padding: 2rem;
 }
 /* End of home page */
 
