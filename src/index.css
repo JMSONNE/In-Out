@@ -3,20 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-#root {
-  display: flex;
-  flex-direction: column;
-}
-main {
-  flex: 1;
-  width: 100%;
-}
-html,
 body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  flex: 1;
+  min-height: 100vh;
 }
+
 /* Navbar layout and styling */
 .nav-bar {
   width: 100%;
@@ -28,6 +19,9 @@ body {
   padding-right: 2rem;
   background-color: white;
   border-bottom: 1px solid black;
+}
+.container {
+  margin-right: 1rem;
 }
 .brand {
   display: flex;
@@ -50,10 +44,12 @@ body {
 /* Layout and styling for the home page */
 .main-page {
   width: auto;
+  min-height: 100vh;
   background-image: url("../public/background.jpeg");
   background-size: cover;
   background-position: center;
   padding-top: 1rem;
+  flex-grow: 1;
 }
 .main-page-text {
   font-family: "quicksand";
@@ -118,14 +114,11 @@ body {
 
 /* Footer section */
 .footer {
-  height: 15vh;
+  min-height: 15vh;
   width: 100%;
   border-top: 1px solid black;
   padding: 1rem;
   background-color: rgb(235, 235, 235);
-  position: relative;
-  left: 0;
-  bottom: 0;
 }
 .footer-content {
   display: flex;
