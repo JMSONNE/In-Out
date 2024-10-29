@@ -6,16 +6,13 @@
 #root {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 main {
   flex: 1;
   width: 100%;
-  height: 100%;
 }
 html,
 body {
-  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -52,7 +49,6 @@ body {
 
 /* Layout and styling for the home page */
 .main-page {
-  height: 100vh;
   width: auto;
   background-image: url("../public/background.jpeg");
   background-size: cover;
@@ -63,20 +59,20 @@ body {
   font-family: "quicksand";
 }
 /* About us section of home page */
-.about-us-banner-text {
+.banner-text {
   font-family: "quicksand";
   color: white;
-  font-size: xxx-large;
+  font-size: 2.5rem;
 }
 .banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 7vh;
   width: 100%;
   background-color: #353333;
-  /* clip-path: polygon(130% 45%, 15% 85%, -30% 20%); */
   margin-bottom: 3rem;
+  border-radius: 50px;
 }
 
 .about-us-content {
@@ -108,6 +104,16 @@ body {
   height: auto;
   width: 22rem;
   border-radius: 30%;
+}
+.award-list {
+  font-family: quicksand;
+  font-size: 1.5rem;
+  transform: translateX(30%);
+}
+.award-content {
+  display: flex;
+  justify-content: flex-start;
+  height: 15vh;
 }
 /* End of home page */
 
@@ -160,9 +166,7 @@ body {
 }
 .stylist-info {
   justify-content: center;
-  /* width: 60%; */
   background-color: white;
-  /* height: 40%; */
   padding: 1rem;
   box-shadow: 3px 1px 12px 0px rgb(46, 46, 46);
   margin-top: 2rem;
@@ -177,8 +181,6 @@ body {
 .flex-wrapper {
   display: flex;
   justify-content: space-evenly;
-  /* width: 100%; */
-  /* height: 100%; */
   padding: 0.5rem;
   align-items: center;
 }
@@ -213,7 +215,6 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    /* height: 20%; */
   }
   .about-us-text {
     height: 20vh;
@@ -221,7 +222,7 @@ body {
     background-color: #353333;
     color: white;
     border-radius: 5px;
-    padding: 0.3rem;
+    padding: 1.3rem;
     box-sizing: content-box;
     width: 60vw;
     text-align: center;

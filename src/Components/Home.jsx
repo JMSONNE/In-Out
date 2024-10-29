@@ -7,7 +7,7 @@ const Home = () => {
             <section className='main-page'>
                 {/* About us section */}
                 <div className="banner">
-                    <h1 className="about-us-banner-text">About us</h1>
+                    <h1 className="banner-text">About us</h1>
                 </div>
 
                 {/* About us content */}
@@ -23,7 +23,17 @@ const Home = () => {
 
                 {/* Awards section */}
                 <div className="banner" style={{ marginTop: "5rem" }}>
-                    <h1 className="about-us-banner-text">Awards</h1>
+                    <h1 className="banner-text">Awards</h1>
+                </div>
+
+                {/* Awards content */}
+                <div className='award-content'>
+                    {/* <img src="" alt="" /> */}
+                    <ul className='award-list' type="square">
+                        <li>award date</li>
+                        <li>award date</li>
+                        <li>award date</li>
+                    </ul>
                 </div>
 
             </section>
