@@ -139,7 +139,7 @@ body {
 
 /* Pricing page */
 .pricing-page {
-  height: 200vh;
+  min-height: 100vh;
   width: auto;
   padding: 1rem;
   background-image: url("../public/background.jpeg");
