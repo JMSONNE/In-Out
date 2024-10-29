@@ -9,7 +9,7 @@ export const Footer = () => {
 
     return (
         <>
-            <footer className='footer'>
+            <div className='footer'>
                 <div className="footer-content">
                     <div className="copyright">
                         <div className='footer-text'>© 2024 - In & Out Cuts</div>
@@ -21,7 +21,7 @@ export const Footer = () => {
                         </IconButton>
                     </div>
                 </div>
-            </footer>
+            </div>
         </>
     )
 }

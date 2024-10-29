@@ -9,10 +9,8 @@ function App() {
 
   return (
     <>
-      <main>
-        <NavigationBar />
-        <Router />
-      </main>
+      <NavigationBar />
+      <Router />
       <Footer />
     </>
   )
