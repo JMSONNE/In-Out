@@ -105,7 +105,7 @@ body {
 .homepage-image {
   height: auto;
   width: 22rem;
-  border-radius: 30%;
+  border-radius: 25px;
 }
 .award-list {
   display: flex;
@@ -244,7 +244,6 @@ body {
   .homepage-image {
     height: auto;
     width: 15rem;
-    border-radius: 30%;
   }
   .stylist-pricing {
     font-size: large;
@@ -269,6 +268,5 @@ body {
   .homepage-image {
     height: auto;
     width: 12rem;
-    border-radius: 30%;
   }
 }
