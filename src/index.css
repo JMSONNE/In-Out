@@ -65,10 +65,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 7vh;
-  width: 100%;
+  width: 90%;
   background-color: #353333;
   margin-bottom: 3rem;
-  border-radius: 50px;
+  border-radius: 5px;
+}
+.banner-container {
+  display: flex;
+  justify-content: center;
 }
 
 .about-us-content {

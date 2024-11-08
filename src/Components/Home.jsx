@@ -5,9 +5,13 @@ const Home = () => {
     return (
         <>
             <section className='main-page'>
+
+
                 {/* About us section */}
-                <div className="banner">
-                    <h1 className="banner-text">About us</h1>
+                <div className="banner-container">
+                    <div className="banner">
+                        <h1 className="banner-text">About us</h1>
+                    </div>
                 </div>
 
                 {/* About us content */}
@@ -25,8 +29,10 @@ const Home = () => {
                 </div>
 
                 {/* Awards section */}
-                <div className="banner" style={{ marginTop: "5rem" }}>
-                    <h1 className="banner-text">Awards</h1>
+                <div className="banner-container">
+                    <div className="banner" style={{ marginTop: '1rem' }}>
+                        <h1 className="banner-text">Awards</h1>
+                    </div>
                 </div>
 
                 {/* Awards content */}
