@@ -75,6 +75,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 .about-us-layout {
   display: flex;
@@ -85,7 +87,7 @@ body {
   height: 50%;
 }
 .about-us-text {
-  height: 15vh;
+  margin-top: 1rem;
   font-family: "quicksand";
   background-color: #353333;
   color: white;
@@ -102,13 +104,21 @@ body {
   border-radius: 30%;
 }
 .award-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
   font-family: quicksand;
   font-size: 1.5rem;
+  padding: 3rem;
+  background-color: #353333;
+  color: white;
+  border-radius: 5px;
 }
 .award-content {
   display: flex;
-  justify-content: flex-start;
-  padding: 2rem;
+  justify-content: space-evenly;
+  padding: 2rem 10vw;
 }
 /* End of home page */
 
@@ -208,8 +218,15 @@ body {
     align-items: center;
     width: 100%;
   }
+  .award-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0rem 10vw;
+  }
   .about-us-text {
-    height: 20vh;
+    /* height: 20vh; */
     font-family: "quicksand";
     background-color: #353333;
     color: white;
@@ -230,6 +247,12 @@ body {
   }
   .nav-bar {
     padding-right: 0;
+  }
+  .main-page {
+    min-height: 250vh;
+  }
+  .award-list {
+    margin-top: 1rem;
   }
 }
 @media (max-width: 600px) {
