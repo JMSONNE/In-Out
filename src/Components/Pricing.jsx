@@ -8,6 +8,13 @@ export const Pricing = () => {
         <section className='pricing-page'>
             <div className="stylist-section">
 
+                {/* Stylist pricing section */}
+                <div className="banner-container" style={{ width: '90vw' }}>
+                    <div className="banner">
+                        <h1 className="banner-text">Pricing</h1>
+                    </div>
+                </div>
+
                 {/* Tessa */}
                 <section className="stylist-info">
                     <h2 className="stylist-name">Tessa</h2>

@@ -36,6 +36,18 @@ const Home = () => {
                 </div>
 
                 {/* Awards content */}
+
+                <div style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    margin: '1rem'
+
+                }}>
+                    <p className="about-us-text">
+                        We've been recognized as the best for a while now!
+                    </p>
+                </div>
+
                 <div className='award-content'>
 
                     <img
