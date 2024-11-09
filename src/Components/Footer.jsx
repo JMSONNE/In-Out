@@ -4,8 +4,13 @@ import { IconButton } from '@mui/material';
 
 export const Footer = () => {
 
-    // Handle social media icons
+    // Social media links
     const facebook = "https://www.facebook.com/profile.php?id=100054282081055";
+
+    // Handle social media links
+    const handleLinks = (link) => {
+        window.open(`${link}`, '_blank');
+    }
 
     return (
         <>
@@ -16,7 +21,7 @@ export const Footer = () => {
                     </div>
                     <div className="social-icons">
                         <IconButton
-                            href={facebook}>
+                            onClick={() => handleLinks(facebook)}>
                             <FacebookIcon fontSize='large' />
                         </IconButton>
                     </div>
