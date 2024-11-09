@@ -104,8 +104,10 @@ body {
 }
 .homepage-image {
   height: auto;
-  width: 22rem;
+  max-width: 22rem;
+  width: 30vw;
   border-radius: 25px;
+  margin-right: 1rem;
 }
 .award-list {
   display: flex;
