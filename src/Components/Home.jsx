@@ -45,7 +45,7 @@ const Home = () => {
 
                 }}>
                     <p className="about-us-text">
-                        We've been recognized as the best for a while now!
+                        We've been recognized as the best!
                     </p>
                 </div>
 
