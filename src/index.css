@@ -44,7 +44,7 @@ body {
 /* Layout and styling for the home page */
 .main-page {
   width: auto;
-  min-height: 150vh;
+  /* min-height: 150vh; */
   background-image: url("../public/background.jpeg");
   background-size: cover;
   background-position: center;
@@ -267,7 +267,7 @@ body {
     padding-right: 0;
   }
   .main-page {
-    min-height: 250vh;
+    /* min-height: 250vh; */
   }
   .award-list {
     margin-top: 1rem;
@@ -293,6 +293,6 @@ body {
     width: 60%;
   }
   .main-page {
-    min-height: 350vh !important;
+    /* min-height: 300vh !important; */
   }
 }
