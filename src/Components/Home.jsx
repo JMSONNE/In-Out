@@ -21,9 +21,8 @@ const Home = () => {
                         className="homepage-image"
                     />
                     <p className="about-us-text">
-                        Welcome to In & Out Cuts, your local spot for stylish cuts, vibrant colors, and personalized service!
-                        Located in the heart of Springtown, we’re passionate about making you look and feel your best.
-                        Our talented team combines small-town warmth with the latest trends, offering a friendly,
+                        Welcome to In & Out Cuts! Since 2015, we've been striving to be your local spot for stylish cuts and personalized service!
+                        Located in the heart of Springtown Texas, Our talented team combines small-town warmth with the latest trends, offering a friendly,
                         relaxing environment where everyone feels at home. Come in for a fresh look – we can’t wait to make your hair dreams a reality!
                     </p>
                 </div>
