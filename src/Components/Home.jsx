@@ -1,4 +1,6 @@
 import React from 'react'
+import storePic from '../../public/store-front.jpg'
+import awardPic from '../../public/award-pic.jpg'
 
 
 const Home = () => {
@@ -16,7 +18,7 @@ const Home = () => {
 
                 {/* About us content */}
                 <div className='about-us-content'>
-                    <img src='/public/store-front.png'
+                    <img src={storePic}
                         alt="In & Out Cuts"
                         className="homepage-image"
                     />
@@ -52,7 +54,7 @@ const Home = () => {
 
                     <img
                         className='homepage-image'
-                        src="https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/217635115_4459259420752999_2850506802059342367_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Alxj59vQyBEQ7kNvgExxYun&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AlUDjNDax3yo08iyvpidWzH&oh=00_AYA2URXSJ_vdHk6xszvdn6aD0yK1o_cAKNHiFvXXT4LtWQ&oe=67343AB4"
+                        src={awardPic}
                         alt="Award photo" />
 
                     <ul className='award-list' type="square">
